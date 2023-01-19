@@ -1,0 +1,43 @@
+header{
+    max-width: 75rem;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    gap: 0.63rem;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+#menu a {
+    padding: 10px 20px ;
+    /* background-color: green; */
+    display: block;
+    font-size: 1.125rem;
+    color: #141414;
+    
+}
+
+/*******RESPONSIVO*******/
+
+@media (max-width: 800px){
+    header{
+        flex-direction: column;        
+        gap: 40px;
+        padding: 20px;
+    }
+
+    #menu{
+        align-content: center;
+    }
+
+    img{
+        max-width: 250px;
+    }
+}
